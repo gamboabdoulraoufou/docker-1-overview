@@ -7,7 +7,10 @@ Docker is the most common containerization software in use today.
 
 ![Docker archtecture](https://github.com/gamboabdoulraoufou/docker-1-overview/blob/master/img/docker_archi.png)
 
-Docker’s main advantages are:
+In this image, you can see how containers relate to the host system. Containers isolate individual applications and use operating system resources that have been abstracted by Docker. 
+
+> Docker’s main advantages  
+
 - Lightweight resource utilization: instead of virtualizing an entire operating system, containers isolate at the process level and use the host’s kernel.
 - Portability: all of the dependencies for a containerized application are bundled inside of the container, allowing it to run on any Docker host.
 - Predictability: The host does not care about what is running inside of the container and the container does not care about which host it is running on.  The interfaces are standardized and the interactions are predictable.
